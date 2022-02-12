@@ -430,14 +430,31 @@ footer ul li a{
 }
 
 @media screen and (max-width: 1500px){
-    .accommodation_marseille{
-        width: 55%;
+    .accommodation_marseille .boxMarseille img{
+        height: 100px;
     }
-    .accommodation_tendance{
-        width: 40%;
+    .accommodation_marseille .boxMarseille .boxDescription h2{
+        font-size: 17px;
     }
-    .accommodation_marseille .boxMarseille{
-        width: calc((100% - 110px) / 2);
+    .accommodation_marseille .boxMarseille .boxDescription p{
+        font-size: 15px;
+    }
+    .accommodation_marseille .boxMarseille .boxDescription span i{
+        font-size: 14px;
+    }
+    .accommodation_tendance .boxTendance .contentTendance h2{
+        font-size: 17px;
+    }
+
+    .accommodation_tendance .boxTendance .contentTendance p{
+        font-size: 15px;
+    }
+
+    .accommodation_tendance .boxTendance .contentTendance span i{
+        font-size: 14px;
+    }
+    .accommodation_tendance .boxTendance img{
+        min-width: 80px;
     }
 }
 
